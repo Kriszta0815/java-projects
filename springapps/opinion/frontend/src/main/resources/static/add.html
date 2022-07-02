@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adding User</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/add.js"></script>
+</head>
+<body>
+<div class="jumbotron">
+    <div class="container">
+        <h2>Tell us your favourite story!</h2>
+    </div>
+</div>
+<div class="container successarea">
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Thank you!</h2>
+            <div>Your story is saved</div>
+            <div>&#160;</div>
+            <div><a href="index.html" class="btn btn-success">Home</a></div>
+        </div>
+    </div>
+</div>
+<form class="form-horizontal">
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="firstName">First Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="firstName" placeholder="Your first Name" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="lastName">Last Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="lastName" placeholder="Your last Name" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="opinion">Story</label>
+        <div class="col-sm-10">
+            <textarea rows="4" class="form-control" id="opinion" placeholder="Your fun baby story"></textarea>
+        </div>
+    </div>
+
+    <div class="rows">
+        <div class="col-sm-10 col-se-offset-2">
+            <a id="send" class="btn btn-success">Save</a>
+            <a href="index.html" class="btn btn-default">Home</a>
+        </div>
+    </div>
+
+</form>
+</body>
+</html>
