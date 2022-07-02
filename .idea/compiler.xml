@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="scheduled_user" />
         <module name="practice" />
         <module name="opinion_backend" />
         <module name="opinion_frontend" />
@@ -18,6 +19,7 @@
       <module name="factorial" options="-parameters" />
       <module name="opinion_backend" options="-parameters" />
       <module name="opinion_frontend" options="-parameters" />
+      <module name="scheduled_user" options="-parameters" />
     </option>
   </component>
 </project>

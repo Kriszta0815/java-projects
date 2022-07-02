@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/user_scheculed
+
+  task:
+    scheduling:
+      pool:
+        size: 5
+
+server:
+  port: 9000
+scheduling:
+  fixedRate: PT5S
+  cron: "15 * * * * *"
+  delay: PT3S
