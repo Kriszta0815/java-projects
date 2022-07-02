@@ -1,0 +1,4 @@
+server:
+  port: 9005
+asker:
+  oracleUrl: http://localhost:9010/answer

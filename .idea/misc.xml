@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/springapps/factorial/pom.xml" />
         <option value="$PROJECT_DIR$/springapps/scheculedUser/pom.xml" />
         <option value="$PROJECT_DIR$/springapps/validatedStudent/pom.xml" />
+        <option value="$PROJECT_DIR$/springapps/lucApp/asker/pom.xml" />
+        <option value="$PROJECT_DIR$/springapps/lucApp/oracle/pom.xml" />
       </list>
     </option>
   </component>
