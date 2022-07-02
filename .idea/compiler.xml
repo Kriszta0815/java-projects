@@ -9,11 +9,13 @@
         <module name="practice" />
         <module name="opinion_backend" />
         <module name="opinion_frontend" />
+        <module name="factorial" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="factorial" options="-parameters" />
       <module name="opinion_backend" options="-parameters" />
       <module name="opinion_frontend" options="-parameters" />
     </option>

@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springapps/opinion/backend/pom.xml" />
         <option value="$PROJECT_DIR$/springapps/opinion/frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/springapps/factorial/pom.xml" />
       </list>
     </option>
   </component>
