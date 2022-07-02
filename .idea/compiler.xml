@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="scheduled_user" />
         <module name="practice" />
+        <module name="validated_student" />
         <module name="opinion_backend" />
         <module name="opinion_frontend" />
         <module name="factorial" />
@@ -20,6 +21,7 @@
       <module name="opinion_backend" options="-parameters" />
       <module name="opinion_frontend" options="-parameters" />
       <module name="scheduled_user" options="-parameters" />
+      <module name="validated_student" options="-parameters" />
     </option>
   </component>
 </project>
